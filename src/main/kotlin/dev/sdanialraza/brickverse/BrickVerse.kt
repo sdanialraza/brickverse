@@ -1,9 +1,11 @@
 package dev.sdanialraza.brickverse
 
 import org.slf4j.LoggerFactory
+import org.slf4j.Logger
 
 import net.fabricmc.api.ModInitializer
-import org.slf4j.Logger
+
+import dev.sdanialraza.brickverse.item.ModItems
 
 class BrickVerse : ModInitializer {
     companion object {
@@ -12,6 +14,6 @@ class BrickVerse : ModInitializer {
     }
 
     override fun onInitialize() {
-        LOGGER.info("Hello, world!")
+        ModItems.registerModItems()
     }
 }
