@@ -1,0 +1,15 @@
+﻿# fabric
+run
+
+# gradle
+.gradle
+build
+out
+classes
+
+# kotlin
+*.class
+*.jar
+*.kotlin_module
+*.kt~
+*.kts~

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "brickverse",
+  "version": "${version}",
+  "name": "BrickVerse",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/brickverse/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.sdanialraza.brickverse.client.BrickVerseClient"
+    ],
+    "main": [
+      "dev.sdanialraza.brickverse.BrickVerse"
+    ]
+  },
+  "mixins": [
+    "brickverse.mixins.json",
+    {
+      "config": "brickverse.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
