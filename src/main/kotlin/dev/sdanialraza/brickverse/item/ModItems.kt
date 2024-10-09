@@ -19,7 +19,7 @@ class ModItems {
         }
 
         fun registerModItems() {
-            BrickVerse.LOGGER.info("Registering mod items for" + BrickVerse.MOD_ID)
+            BrickVerse.LOGGER.info("Registering mod items for ${BrickVerse.MOD_ID}")
 
             ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register { entries ->
                 entries.add(RUBY)
