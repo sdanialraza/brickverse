@@ -1,3 +1,6 @@
 ﻿{
-  "item.brickverse.ruby": "Rubí"
+  "item.brickverse.ruby": "Rubí",
+  "block.brickverse.ruby_ore": "Mena de rubí",
+  "block.brickverse.deepslate_ruby_ore": "Mena de rubí de pizarra profunda",
+  "block.brickverse.ruby_block": "Bloque de rubí"
 }

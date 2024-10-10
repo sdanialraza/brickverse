@@ -1,0 +1,13 @@
+﻿{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "brickverse:ruby_ore"
+  },
+  "result": {
+    "id": "brickverse:ruby"
+  }
+}

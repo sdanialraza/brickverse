@@ -1,0 +1,13 @@
+﻿{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "ruby",
+  "ingredient": {
+    "item": "brickverse:deepslate_ruby_ore"
+  },
+  "result": {
+    "id": "brickverse:ruby"
+  }
+}

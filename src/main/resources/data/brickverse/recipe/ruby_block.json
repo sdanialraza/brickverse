@@ -1,0 +1,18 @@
+﻿{
+  "category": "misc",
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "brickverse:ruby"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "brickverse:ruby_block"
+  }
+}
