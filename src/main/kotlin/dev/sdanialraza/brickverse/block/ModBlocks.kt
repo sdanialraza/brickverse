@@ -27,7 +27,7 @@ class ModBlocks {
             )
         )
 
-        private val RUBY_DEEPSLATE_ORE: Block = registerBlock(
+        private val DEEPSLATE_RUBY_ORE: Block = registerBlock(
             "deepslate_ruby_ore",
             ExperienceDroppingBlock(
                 UniformIntProvider.create(3, 6),
@@ -59,7 +59,7 @@ class ModBlocks {
             ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 .register(ModifyEntries { entries ->
                     entries.add(RUBY_ORE)
-                    entries.add(RUBY_DEEPSLATE_ORE)
+                    entries.add(DEEPSLATE_RUBY_ORE)
                     entries.add(RUBY_BLOCK)
                 })
         }
