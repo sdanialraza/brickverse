@@ -1,5 +1,7 @@
 ﻿{
   "item.brickverse.ruby": "Ruby",
+  "itemgroup.brickverse.blocks": "Brickverse Blocks",
+  "itemgroup.brickverse.items": "Brickverse Items",
   "block.brickverse.ruby_ore": "Ruby Ore",
   "block.brickverse.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.brickverse.ruby_block": "Block of Ruby"

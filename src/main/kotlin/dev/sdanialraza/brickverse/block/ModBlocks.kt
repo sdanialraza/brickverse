@@ -1,8 +1,5 @@
 ﻿package dev.sdanialraza.brickverse.block
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.ModifyEntries
-
 import net.minecraft.block.AbstractBlock
 import net.minecraft.block.Block
 import net.minecraft.block.ExperienceDroppingBlock
@@ -15,11 +12,14 @@ import net.minecraft.sound.BlockSoundGroup
 import net.minecraft.util.Identifier
 import net.minecraft.util.math.intprovider.UniformIntProvider
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents.ModifyEntries
+
 import dev.sdanialraza.brickverse.BrickVerse
 
 class ModBlocks {
     companion object {
-        private val RUBY_ORE: Block = registerBlock(
+        val RUBY_ORE: Block = registerBlock(
             "ruby_ore",
             ExperienceDroppingBlock(
                 UniformIntProvider.create(2, 5),
@@ -27,7 +27,7 @@ class ModBlocks {
             )
         )
 
-        private val DEEPSLATE_RUBY_ORE: Block = registerBlock(
+        val DEEPSLATE_RUBY_ORE: Block = registerBlock(
             "deepslate_ruby_ore",
             ExperienceDroppingBlock(
                 UniformIntProvider.create(3, 6),
@@ -35,7 +35,7 @@ class ModBlocks {
             )
         )
 
-        private val RUBY_BLOCK: Block = registerBlock(
+        val RUBY_BLOCK: Block = registerBlock(
             "ruby_block",
             Block(AbstractBlock.Settings.create().strength(4f).requiresTool())
         )

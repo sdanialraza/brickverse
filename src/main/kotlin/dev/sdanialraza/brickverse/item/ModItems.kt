@@ -12,7 +12,7 @@ import dev.sdanialraza.brickverse.BrickVerse
 
 class ModItems {
     companion object {
-        private val RUBY: Item = registerItem("ruby", Item(Item.Settings()))
+        val RUBY: Item = registerItem("ruby", Item(Item.Settings()))
 
         private fun registerItem(name: String, item: Item): Item {
             return Registry.register(Registries.ITEM, Identifier.of(BrickVerse.MOD_ID, name), item)

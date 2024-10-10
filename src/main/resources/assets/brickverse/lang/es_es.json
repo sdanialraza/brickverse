@@ -1,5 +1,7 @@
 ﻿{
   "item.brickverse.ruby": "Rubí",
+  "itemgroup.brickverse.blocks": "Bloques de Brickverse",
+  "itemgroup.brickverse.items": "Objetos de Brickverse",
   "block.brickverse.ruby_ore": "Mena de rubí",
   "block.brickverse.deepslate_ruby_ore": "Mena de rubí de pizarra profunda",
   "block.brickverse.ruby_block": "Bloque de rubí"

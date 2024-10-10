@@ -6,6 +6,7 @@ import org.slf4j.Logger
 import net.fabricmc.api.ModInitializer
 
 import dev.sdanialraza.brickverse.block.ModBlocks
+import dev.sdanialraza.brickverse.item.ModItemGroups
 import dev.sdanialraza.brickverse.item.ModItems
 
 class BrickVerse : ModInitializer {
@@ -17,5 +18,6 @@ class BrickVerse : ModInitializer {
     override fun onInitialize() {
         ModBlocks.registerModBlocks()
         ModItems.registerModItems()
+        ModItemGroups.registerModItemGroups()
     }
 }
